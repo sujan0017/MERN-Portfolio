@@ -3,7 +3,8 @@ import Title from "./Title";
 
 function Projects() {
   return (
-    <section className="w-full  py-24 flex justify-center items-center  ">
+    <div className="dark">
+    <section className="w-full md:py-24 py-10 flex justify-center items-center dark:bg-primaryDark100  ">
       <div className="container">
         <Title
           title="My Projects"
@@ -22,6 +23,7 @@ function Projects() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

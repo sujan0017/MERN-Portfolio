@@ -4,7 +4,8 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <footer className="w-full bg-primaryLight900 py-24 ">
+    <div className="dark">
+    <footer className="w-full bg-primaryLight900 dark:bg-primaryDark100 py-24 ">
       <div className="container flex flex-col justify-center items-center gap-10">
         <div className="w-full flex flex-col justify-center items-center gap-5 ">
           <Link to="/">
@@ -45,6 +46,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   );
 }
 

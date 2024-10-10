@@ -7,19 +7,30 @@ export default {
         bgBlack: "#000000",
         bgWhite: "#FFFFFF",
 
-        primaryLight100 : "#e8e7fd",
-        primaryLight200 : "#655df4",
-        primaryLight300 : "#534af2",
-        primaryLight400 : "#2e24f0",
-        primaryLight500 : "#1b10e5",
-        primaryLight600 : "#1c11ee",
-        primaryLight700 : "#1a0fdb",
-        primaryLight800 : "#0e0877",
-        primaryLight900 : "#080548",
+        primaryLight100: "#e8e7fd",
+        primaryLight200: "#655df4",
+        primaryLight300: "#534af2",
+        primaryLight400: "#2e24f0",
+        primaryLight500: "#1b10e5",
+        primaryLight600: "#1c11ee",
+        primaryLight700: "#1a0fdb",
+        primaryLight800: "#0e0877",
+        primaryLight900: "#080548",
 
-        secondaryLight : "#b011ea",
-        accentLight : "#F26101",
-    
+        primaryDark100: "#121212",
+        primaryDark200: "#282828",
+        primaryDark300: "#3f3f3f",
+        primaryDark400: "#575757",
+
+        primaryDark500: "#1a1424",
+
+        primaryDark600: "#2f2939",
+        primaryDark700: "#46404e",
+        primaryDark800: "#5e5865",
+        primaryDark900: "#080548",
+
+        secondaryLight: "#b011ea",
+        accentLight: "#F26101",
       },
       fontSize: {
         h1: "5.61rem",
@@ -45,4 +56,5 @@ export default {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
